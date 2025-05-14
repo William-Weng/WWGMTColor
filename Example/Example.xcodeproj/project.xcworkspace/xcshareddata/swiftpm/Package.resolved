@@ -1,0 +1,15 @@
+{
+  "originHash" : "bb0a92d204d4409892bc194ef409a1d66b78dc7ac215962e2ba7594f7bbc6870",
+  "pins" : [
+    {
+      "identity" : "wwgmtcolor",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/William-Weng/WWGMTColor",
+      "state" : {
+        "revision" : "cad3ab111bec9bf4cfbcdea48efb6dd679603864",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
