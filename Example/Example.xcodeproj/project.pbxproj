@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		812D18A12DD48C1A003E817E /* WWGMTColor in Frameworks */ = {isa = PBXBuildFile; productRef = 812D18A02DD48C1A003E817E /* WWGMTColor */; };
 		812D18A42DD4982A003E817E /* WWGMTColor in Frameworks */ = {isa = PBXBuildFile; productRef = 812D18A32DD4982A003E817E /* WWGMTColor */; };
-		8136C7AE2DD4998600275B59 /* WWGMTColor in Frameworks */ = {isa = PBXBuildFile; productRef = 8136C7AD2DD4998600275B59 /* WWGMTColor */; };
 		817567FC2CA2C2B400B24577 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817567FB2CA2C2B400B24577 /* AppDelegate.swift */; };
 		817568002CA2C2B400B24577 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817567FF2CA2C2B400B24577 /* ViewController.swift */; };
 		817568032CA2C2B400B24577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 817568012CA2C2B400B24577 /* Main.storyboard */; };
 		817568052CA2C2B500B24577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 817568042CA2C2B500B24577 /* Assets.xcassets */; };
 		817568082CA2C2B500B24577 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 817568062CA2C2B500B24577 /* LaunchScreen.storyboard */; };
+		81D8417F2DD5B2D3004E85E3 /* WWGMTColor in Frameworks */ = {isa = PBXBuildFile; productRef = 81D8417E2DD5B2D3004E85E3 /* WWGMTColor */; };
+		81D841822DD5B323004E85E3 /* WWGMTColor in Frameworks */ = {isa = PBXBuildFile; productRef = 81D841812DD5B323004E85E3 /* WWGMTColor */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,8 +34,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				812D18A12DD48C1A003E817E /* WWGMTColor in Frameworks */,
-				8136C7AE2DD4998600275B59 /* WWGMTColor in Frameworks */,
+				81D8417F2DD5B2D3004E85E3 /* WWGMTColor in Frameworks */,
 				812D18A42DD4982A003E817E /* WWGMTColor in Frameworks */,
+				81D841822DD5B323004E85E3 /* WWGMTColor in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,7 +123,8 @@
 			packageProductDependencies = (
 				812D18A02DD48C1A003E817E /* WWGMTColor */,
 				812D18A32DD4982A003E817E /* WWGMTColor */,
-				8136C7AD2DD4998600275B59 /* WWGMTColor */,
+				81D8417E2DD5B2D3004E85E3 /* WWGMTColor */,
+				81D841812DD5B323004E85E3 /* WWGMTColor */,
 			);
 			productName = Example;
 			productReference = 817567F82CA2C2B400B24577 /* Example.app */;
@@ -152,7 +155,7 @@
 			);
 			mainGroup = 817567EF2CA2C2B400B24577;
 			packageReferences = (
-				8136C7AC2DD4998600275B59 /* XCRemoteSwiftPackageReference "WWGMTColor" */,
+				81D841802DD5B323004E85E3 /* XCRemoteSwiftPackageReference "WWGMTColor" */,
 			);
 			productRefGroup = 817567F92CA2C2B400B24577 /* Products */;
 			projectDirPath = "";
@@ -417,12 +420,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		8136C7AC2DD4998600275B59 /* XCRemoteSwiftPackageReference "WWGMTColor" */ = {
+		81D841802DD5B323004E85E3 /* XCRemoteSwiftPackageReference "WWGMTColor" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/William-Weng/WWGMTColor";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				minimumVersion = 1.0.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -436,9 +439,13 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = WWGMTColor;
 		};
-		8136C7AD2DD4998600275B59 /* WWGMTColor */ = {
+		81D8417E2DD5B2D3004E85E3 /* WWGMTColor */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 8136C7AC2DD4998600275B59 /* XCRemoteSwiftPackageReference "WWGMTColor" */;
+			productName = WWGMTColor;
+		};
+		81D841812DD5B323004E85E3 /* WWGMTColor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81D841802DD5B323004E85E3 /* XCRemoteSwiftPackageReference "WWGMTColor" */;
 			productName = WWGMTColor;
 		};
 /* End XCSwiftPackageProductDependency section */

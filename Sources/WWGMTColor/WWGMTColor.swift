@@ -8,7 +8,7 @@
 import UIKit
 
 /// [GMT色碼表](https://www.soest.hawaii.edu/gmt/gmt/html/man/gmtcolors.html)
-public enum WWGMTColor: String {
+public enum WWGMTColor: String, CaseIterable {
     
     case snow
     case ghostwhite
